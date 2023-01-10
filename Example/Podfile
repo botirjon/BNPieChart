@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BNPieChart_Example' do
+  pod 'BNPieChart', :path => '../'
+
+  target 'BNPieChart_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
