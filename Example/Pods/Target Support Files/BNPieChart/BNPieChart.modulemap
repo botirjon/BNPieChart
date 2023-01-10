@@ -1,0 +1,6 @@
+framework module BNPieChart {
+  umbrella header "BNPieChart-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - BNPieChart (1.0.0)
+
+DEPENDENCIES:
+  - BNPieChart (from `../`)
+
+EXTERNAL SOURCES:
+  BNPieChart:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BNPieChart: bd7167222349afd45d855cc90146edac89d9b970
+
+PODFILE CHECKSUM: 6b59953887801da67a44cbc025e2debecb6e27c2
+
+COCOAPODS: 1.11.3

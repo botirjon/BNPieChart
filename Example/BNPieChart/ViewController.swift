@@ -7,9 +7,15 @@
 //
 
 import UIKit
+import BNPieChart
 
 class ViewController: UIViewController {
 
+    let a: A = {
+        let a = A()
+        return a
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
