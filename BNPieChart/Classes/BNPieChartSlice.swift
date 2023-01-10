@@ -8,9 +8,15 @@
 import UIKit
 
 public struct BNPieChartSlice {
-    var title: String = ""
-    var color: UIColor = .random()
-    var weight: Float
+    public var title: String = ""
+    public var color: UIColor = .random()
+    public var weight: Float
+    
+    public init(title: String = "", color: UIColor = .clear, weight: Float) {
+        self.title = title
+        self.color = color
+        self.weight = weight
+    }
     
     internal var share: CGFloat {
         CGFloat(weight)

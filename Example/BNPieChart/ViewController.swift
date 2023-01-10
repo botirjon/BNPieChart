@@ -11,14 +11,30 @@ import BNPieChart
 
 class ViewController: UIViewController {
 
-    let a: A = {
-        let a = A()
-        return a
+    private lazy var pieChart: BNPieChart = {
+        let pieChart = BNPieChart()
+        pieChart.translatesAutoresizingMaskIntoConstraints = false
+        return pieChart
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.addSubview(pieChart)
+        
+        NSLayoutConstraint.activate([
+            pieChart.centerXAnchor.constraint(equalTo: pieChart.superview!.centerXAnchor),
+            pieChart.centerYAnchor.constraint(equalTo: pieChart.superview!.centerYAnchor),
+            pieChart.widthAnchor.constraint(equalToConstant: 150),
+            pieChart.heightAnchor.constraint(equalToConstant: 150)
+        ])
+        
+        pieChart.setSlices([
+            .init(title: "", color: .red, weight: 10),
+            .init(title: "", color: .green, weight: 20),
+            .init(title: "", color: .blue, weight: 30)
+        ])
+        
+        pieChart.thickness = 20
     }
 
     override func didReceiveMemoryWarning() {
