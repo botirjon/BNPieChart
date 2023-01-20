@@ -18,7 +18,7 @@
 		5964D66E78925DFF63C149CFAB5D621E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		61B8A7DA2BBCF2797B35C27AFA479CB0 /* Pods-BNPieChart_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6466610B153F474625AD92C17B30DA65 /* Pods-BNPieChart_Tests-dummy.m */; };
 		87E4638C5BF42C77449C5C86FEC07EDE /* Pods-BNPieChart_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E766E59D220565D6223E79F3104808 /* Pods-BNPieChart_Example-dummy.m */; };
-		EA723C195738EC558D5451A448ECD3BC /* BNPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784B44575CE15D354C08E688FBD2D2D /* BNPieChart.swift */; };
+		EA723C195738EC558D5451A448ECD3BC /* BNPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784B44575CE15D354C08E688FBD2D2D /* BNPieChartView.swift */; };
 		FAE20B6442E89AE4B958F89B6A92FE6E /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0F6E54395D518D8DC1BE13777103A /* UIColor+Ext.swift */; };
 		FF3BD6E9715052FED4EF34BBD567BFE9 /* BNPieChartSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C255AD58234A305C60E1F225500B5A8 /* BNPieChartSlice.swift */; };
 /* End PBXBuildFile section */
@@ -54,16 +54,16 @@
 		6A198CA42F02E5C31BB87336C5DC2F3C /* Pods-BNPieChart_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BNPieChart_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6C255AD58234A305C60E1F225500B5A8 /* BNPieChartSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BNPieChartSlice.swift; path = BNPieChart/Classes/BNPieChartSlice.swift; sourceTree = "<group>"; };
 		701FC77BE588A23E96077B71B01965C4 /* BNPieChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BNPieChart-umbrella.h"; sourceTree = "<group>"; };
-		7DD28EC59DBC8D36CFF5444C806283C1 /* BNPieChart.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BNPieChart.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7DD28EC59DBC8D36CFF5444C806283C1 /* BNPieChart.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BNPieChart.podspec; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		897ABFEC3BC3C5B2FE6F0B9D0511A63C /* Pods-BNPieChart_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNPieChart_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8BDC33C40719AA072671E6E62E005E8D /* Pods-BNPieChart_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNPieChart_Example-Info.plist"; sourceTree = "<group>"; };
 		8D290255ECE9733B834E253159018C2F /* Pods-BNPieChart_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BNPieChart_Tests.modulemap"; sourceTree = "<group>"; };
 		902FA581214E882D9021635101A1AA80 /* Pods-BNPieChart_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BNPieChart_Example.modulemap"; sourceTree = "<group>"; };
 		93B0F6E54395D518D8DC1BE13777103A /* UIColor+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Ext.swift"; path = "BNPieChart/Classes/UIColor+Ext.swift"; sourceTree = "<group>"; };
-		9784B44575CE15D354C08E688FBD2D2D /* BNPieChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BNPieChart.swift; path = BNPieChart/Classes/BNPieChart.swift; sourceTree = "<group>"; };
+		9784B44575CE15D354C08E688FBD2D2D /* BNPieChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BNPieChartView.swift; path = BNPieChart/Classes/BNPieChartView.swift; sourceTree = "<group>"; };
 		98D83B6A605F590AC2FB40F5CAB6253F /* CGRect+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Ext.swift"; path = "BNPieChart/Classes/CGRect+Ext.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1A514CD8F75767D9AB3AA5A05FE6E6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1A514CD8F75767D9AB3AA5A05FE6E6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BC0992E991EF7CC03A67DBF7BA23DB8F /* Pods-BNPieChart_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BNPieChart_Tests"; path = Pods_BNPieChart_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8E731509961D6112552BB1007F510E /* Pods-BNPieChart_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BNPieChart_Example-umbrella.h"; sourceTree = "<group>"; };
 		C4326700294AD5D81D7405B08FC8185F /* Pods-BNPieChart_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNPieChart_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		EAE73DA3A81C4BACC0C293226852C298 /* Pods-BNPieChart_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BNPieChart_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EED91B3E90107A39748125AD32F17039 /* BNPieChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BNPieChart.release.xcconfig; sourceTree = "<group>"; };
 		F6E87B7B52E8E187595D19DA51725389 /* Pods-BNPieChart_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNPieChart_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F70309F1EB2DB4AD2133984F732CB1A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F70309F1EB2DB4AD2133984F732CB1A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F79F96AFB4AE3EFE120037FF38BF2AD8 /* BNPieChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BNPieChart-dummy.m"; sourceTree = "<group>"; };
 		F91002658BC4524BFBEDB522C3F69C95 /* Pods-BNPieChart_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNPieChart_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,7 +127,7 @@
 		0DC460F1F2ECAD981FD975DDFDFB4578 /* BNPieChart */ = {
 			isa = PBXGroup;
 			children = (
-				9784B44575CE15D354C08E688FBD2D2D /* BNPieChart.swift */,
+				9784B44575CE15D354C08E688FBD2D2D /* BNPieChartView.swift */,
 				6C255AD58234A305C60E1F225500B5A8 /* BNPieChartSlice.swift */,
 				98D83B6A605F590AC2FB40F5CAB6253F /* CGRect+Ext.swift */,
 				93B0F6E54395D518D8DC1BE13777103A /* UIColor+Ext.swift */,
@@ -396,7 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA723C195738EC558D5451A448ECD3BC /* BNPieChart.swift in Sources */,
+				EA723C195738EC558D5451A448ECD3BC /* BNPieChartView.swift in Sources */,
 				2EA418C66C6314CE05257FCC9A847617 /* BNPieChart-dummy.m in Sources */,
 				FF3BD6E9715052FED4EF34BBD567BFE9 /* BNPieChartSlice.swift in Sources */,
 				0B8F65D9C37E4A2EE3283709A2D94B59 /* CGRect+Ext.swift in Sources */,
@@ -542,8 +542,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -2,7 +2,7 @@ import UIKit
 
 
 
-public class BNPieChart: UIView {
+public class BNPieChartView: UIView {
     
     private var data: [BNPieChartSlice] = [] {
         didSet {

@@ -11,8 +11,8 @@ import BNPieChart
 
 class ViewController: UIViewController {
 
-    private lazy var pieChart: BNPieChart = {
-        let pieChart = BNPieChart()
+    private lazy var pieChart: BNPieChartView = {
+        let pieChart = BNPieChartView()
         pieChart.translatesAutoresizingMaskIntoConstraints = false
         return pieChart
     }()
